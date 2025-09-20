@@ -114,3 +114,26 @@ Write a Python script that calculates approximately how many minutes old a perso
 ### Bonus
     - Add comma formatting for large number.
     - Let the user try again without restarting the program
+
+---------------------------------------------------------------------------------------------------
+5. Challenge: Emoji Enhancer for Messages
+
+Create a Python script that takes a message and add emojis after specific keywords to make it more expressive.
+
+# Your Program should:
+    1. Ask the user to input a message.
+    2. Add emojis after certain keywords (like "happy", "love", "code", "tea", etc.).
+    3. Print the updated message with emojis.
+
+## Example:
+    Input:
+        I love to code and drink tea when I'm happy.
+
+    Output:
+        I 🎉 love to code and 🍵 tea when I'm happy 😎.
+
+### Bonus:
+    - Make it case-sensitive (match "Happy" or "happy")
+    - Handle punctuation (like commas or periods right after keywords)
+
+---------------------------------------------------------------------------------------------------
