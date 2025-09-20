@@ -137,3 +137,23 @@ Create a Python script that takes a message and add emojis after specific keywor
     - Handle punctuation (like commas or periods right after keywords)
 
 ---------------------------------------------------------------------------------------------------
+6. Challenge: Daily Learning Journal Logger
+
+Build a python script that allows you to maintain a daily learning journal. Each entry will be saved into a `.txt`
+file along with a timestamp.
+
+# Your Program should:
+    1. Ask the user what they learned today.
+    2. Add the entry to a file called `learning_journal.txt`.
+    3. Each entry should include the date and time it was written.
+    4. The journal should **append** new entries rather than overwrite.
+
+### Bonus
+    - Add an optional rating (1-5) for how productive the day was.
+    - Show a confirmation message after saving the entry.
+    - Make sure the format is clean and easy to read when opening the file.
+
+## Example:
+    🗓️ 2025-09-20 - 14:15 PM
+    Today I learned about how list comprehensions work in Python!
+    Productivity Rating: 4/5
