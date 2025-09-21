@@ -157,3 +157,35 @@ file along with a timestamp.
     🗓️ 2025-09-20 - 14:15 PM
     Today I learned about how list comprehensions work in Python!
     Productivity Rating: 4/5
+
+---------------------------------------------------------------------------------------------------
+7. Challenge: Terminal-Based Task List Manager
+
+Create a Python script that lets user manage a to-do list directly from the terminal.
+
+# Your Program should:
+    1. Allow user to:
+        - Add a task
+        - View all tasks
+        - Mark a task as completed
+        - Remove a task
+        - Exit the app
+    2. Save all tasks in a text file named `tasks.txt` so data persists between sessions.
+    3. Display tasks with an index number and a  ✔️ if the task is completed.
+
+## Example Menu:
+    1. Add Task
+    2. View Tasks
+    3. Mark Task as Completed
+    4. Delete Task
+    5. Exit
+
+## Example Output:
+    Your Tasks:
+        Buy Groceries || not_done
+        Finih Python Project || done
+        Read a Book || not_done
+
+### Bonus:
+    - Prevent empty tasks from being added.
+    - Validate tasks number before completing/deleting.
