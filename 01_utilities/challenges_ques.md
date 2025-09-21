@@ -208,3 +208,20 @@ Build a Python script that checks the strength of a password based on:
 
 ### Bonus:
     - Hide password input using `getpass` (no echo on screen).
+
+---------------------------------------------------------------------------------------------------
+9. Challenge: Set a Countdown Timer
+
+Create a Python script that allows the users to set a timer in seconds. The script should:
+
+# Your Program should:
+    1. Ask the user for the number of seconds to set the timer.
+    2. Show a live countdown in the terminal.
+    3. Notify the user when thr timer ends with a final message and sound (if possible).
+
+### Bonus:
+    - Format the remaining time as MM:SS
+    - Use a beep sound (`\a`) at the end if the terminal supports it.
+    - Prevents negative or non-integer inputs.
+
+---------------------------------------------------------------------------------------------------
