@@ -225,3 +225,26 @@ Create a Python script that allows the users to set a timer in seconds. The scri
     - Prevents negative or non-integer inputs.
 
 ---------------------------------------------------------------------------------------------------
+10. Challenge: Building a Caesar Cipher (Secret Message Encryptor and Decryptor)
+
+Create a Python Script that helps you send secret message to your friend usind simple encryption.
+
+# Your Program should:
+    1. Ask the user if they want to (E)ncrypt or (D)ecrypt a message.
+    2. If Encryption is selected:
+        - Ask for a message and a numeric secret key.
+        - Use a Caesar Cipher (shift letters by the key value).
+        - Output the encrypted message.
+    3. If Decryption is selected:
+        - Ask for the message and key.
+        - Reverse the encryption to get the original message.
+
+# Rules:
+    - Only encrypt letters; leave spaces and punctuations as-is.
+    - Make sure the letters wrap around (e.g., 'z' + 1 -> 'a').
+
+### Bonus:
+    - Allow uppercase and lowercase letters handling.
+    - Show a clean interface.
+
+---------------------------------------------------------------------------------------------------
