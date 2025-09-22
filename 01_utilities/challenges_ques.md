@@ -248,3 +248,19 @@ Create a Python Script that helps you send secret message to your friend usind s
     - Show a clean interface.
 
 ---------------------------------------------------------------------------------------------------
+11. Challenge: Friendship Compatibility Calculator
+
+Build a Python script that calculates a fun "Compatibility Score" between two friends based on their
+names.
+
+# Your Program should:
+    1. Ask for two names (Friend A and Friend B).
+    2. Count shared letters, vowels, and characters position to create a compatibility score (1-100).
+    3. Display the message with a themed message like:
+        "You're like chai and samosa - made for each other!" or
+        "Well.... Opposites attrach, maybe?" (## Homework)
+    
+### Bonus:
+    - Use emoji in the result.
+    - Give playful advice based on the score range.
+    - Capitalize and center the final output in a framed box.
