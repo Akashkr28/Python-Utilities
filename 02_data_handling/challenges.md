@@ -26,3 +26,22 @@
         - Allow Partial match search.
         - Prevent duplicates names for being added.
 
+---------------------------------------------------------------------------------------------------
+2. Challenge: Student Marks Analyzer
+
+    Create a pyhton program that allows a user to input student names along with their markss and then calculate useful statistics.
+
+    ## Your Program should:
+        1. Let the user input multiple students with their marks(name + integer score).
+        2. After input is complete, display
+            - Average Marks
+            - Highest Marks and Student(s) who scored it
+            - Lowest marks and student(s) who scored it
+            - Total number of students
+
+    ## Bonus:
+        - Allow the user to enter all data first, then view the report.
+        - Format output clearly in a report-style layout.
+        - Prevent duplicate students names.
+
+---------------------------------------------------------------------------------------------------
