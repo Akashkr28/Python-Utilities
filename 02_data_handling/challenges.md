@@ -67,3 +67,26 @@
         - Use JSON for reading/writing structured data.
 
 ---------------------------------------------------------------------------------------------------
+4, Challenge: Real-Time Weather Logger (API + CSV)
+
+    Build a Python CLI tool that fetches real-time weather data for a given city and logs it to a CSV file for daily tracking.
+
+    ## Your Program should:
+        1. Ask the user for a city name.
+        2. Fetch weather data using the OpenWeatherMap API.
+        3. Store the followning in a CSV file (`weather_log.csv`):
+            - Date (auto-filled as today's date)
+            - City
+            - Temprature (in Celsius)
+            - Weather Condition(e.g. Clear, Rain)
+        4. Prevents duplicates entries for the same city on the same day.
+        5. Allow user to:
+            - Add new weather log
+            - View all logs
+            - Show average, highest, lowest tempratures, and most frequent conditions
+
+    ## Bonus:
+        - Format output in a clean table.
+        - Handle API failures and invalid city names gracefully.
+
+---------------------------------------------------------------------------------------------------
