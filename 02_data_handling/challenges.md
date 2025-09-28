@@ -90,3 +90,18 @@
         - Handle API failures and invalid city names gracefully.
 
 ---------------------------------------------------------------------------------------------------
+6. Challenge: JSON-to-Excel Converter Tool
+
+    Create a python utility that reads structured data (like you'd get from an API) from a `.json` file
+    and convert it to a CSV file that can be opened in Excel.
+
+    ## Your Program Should:
+        1. Read from a file named `api_data.json` in the same folder.
+        2. Convert the JSON content (a list of dictionaries) into `converted_data.csv`.
+        3. Automatically extract field names such as CSV headers
+        4. Handle nested structures by flattening or skipping them.
+
+    ## Bonus:
+        - Provide feedback on how many records were converted.
+        - Allow users to define which fields to extract.
+        - Handle missing fields gracefully.
