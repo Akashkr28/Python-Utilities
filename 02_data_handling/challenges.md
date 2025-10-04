@@ -152,3 +152,17 @@ Flatten this to:
         - Mask password when showing in the list.
 
 ---------------------------------------------------------------------------------------------------
+10. Challenge: Offline Notes Locker
+
+    Create a terminal based app that allows user to save, view, and search personal notes securely in a encrypted file.
+
+    ## Your Program should:
+        1. Let user add notes with title and content.
+        2. Automatically encrypt each note using Fernet (AES under the hood).
+        3. Store all encrypted notes in a single vault `.vault` file (JSON format).
+        4. Allow listing of titles and viewing/decrypting selected notes.
+        5. Support searching by title or keyword.
+
+    ## Bonus:
+        - Add timestamps to notes.
+        - Use a master password to unlock the vault.
